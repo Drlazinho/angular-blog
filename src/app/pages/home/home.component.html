@@ -1,12 +1,16 @@
 <app-menu-bar></app-menu-bar>
 <app-menu-title></app-menu-title>
 <div class="container__articles">
-    <div class="articles__main">
-        <app-big-card></app-big-card>
-    </div>
-    <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-    </div>
+  <div class="articles__main">
+    <app-big-card
+      photoCover="https://www.freecodecamp.org/portuguese/news/content/images/size/w2000/2022/04/react-vs-angular.png"
+      cardDescription="@Input no Angular é como uma props no Reactjs"
+      cardTitle="@Input / Props - Angular / React"
+    ></app-big-card>
+  </div>
+  <div class="articles__others">
+    <app-small-card cardTitle="Novo curso Angula" photoCover="https://assets-blog.hostgator.com.br/wp-content/uploads/2021/03/logo-angular-768x387.webp"></app-small-card>
+    <app-small-card photoCover="https://blog.logrocket.com/wp-content/uploads/2023/10/complete-guide-react-refs.png" cardTitle="Aperfeiçoando React"></app-small-card>
+    <app-small-card></app-small-card>
+  </div>
 </div>
